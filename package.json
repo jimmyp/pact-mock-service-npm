@@ -1,11 +1,12 @@
 {
   "name": "pact-mock-service",
-  "version": "0.5.3-1",
+  "version": "0.5.3",
   "description": "Pact mock service install package. Installing this will install an executable appropriate for your platform.",
   "scripts": {
     "postinstall": "node scripts/platform-deps.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin":"bin/pact-mock-service.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/bethesque/pact-mock-service-npm"
