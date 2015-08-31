@@ -10,7 +10,7 @@ npm.load(function (er, npm) {
 	console.log("Installing Pact mock server for " + packageName);
 
 	//Install npm into the wrapping pact-mock-service node_modules directory to avoid nested node_modules
-	exec('npm install ' + packageName + '@latest', function (error, stdout, stderr) {
+	exec('npm install ' + packageName + '@latest', {cwd:'../..'}, function (error, stdout, stderr) {
 		if (error) {
 			console.error(error);
 			process.exit(1);
