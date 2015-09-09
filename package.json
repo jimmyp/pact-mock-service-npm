@@ -1,6 +1,6 @@
 {
   "name": "mboudreau-pact-mock-service-test",
-  "version": "0.0.3",
+  "version": "0.7.1-1",
   "description": "Pact mock service install package. Installing this will install an executable appropriate for your platform.",
   "scripts": {
     "preinstall": "node scripts/platform-deps.js",
